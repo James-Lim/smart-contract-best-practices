@@ -36,7 +36,7 @@
     
     
       
-        <title>토큰을 위한 추천 패턴 - Ethereum Smart Contract Best Practices</title>
+        <title>토큰과 관련된 모범 사례 - Ethereum Smart Contract Best Practices</title>
       
     
     
@@ -94,7 +94,7 @@
                 Ethereum Smart Contract Best Practices
               </span>
               <span class="md-header-nav__topic">
-                토큰을 위한 추천 패턴
+                토큰과 관련된 모범 사례
               </span>
             
           
@@ -479,8 +479,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../known_attacks/" title="알려진 공격들" class="md-nav__link">
-      알려진 공격들
+    <a href="../known_attacks/" title="알려진 공격 사례" class="md-nav__link">
+      알려진 공격 사례
     </a>
   </li>
 
@@ -491,8 +491,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../software_engineering/" title="소프트웨어 공학 기술" class="md-nav__link">
-      소프트웨어 공학 기술
+    <a href="../software_engineering/" title="소프트웨어 공학" class="md-nav__link">
+      소프트웨어 공학
     </a>
   </li>
 
@@ -512,11 +512,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        토큰을 위한 추천 패턴
+        토큰과 관련된 모범 사례
       </label>
     
-    <a href="./" title="토큰을 위한 추천 패턴" class="md-nav__link md-nav__link--active">
-      토큰을 위한 추천 패턴
+    <a href="./" title="토큰과 관련된 모범 사례" class="md-nav__link md-nav__link--active">
+      토큰과 관련된 모범 사례
     </a>
     
       
@@ -530,37 +530,37 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#comply-with-the-latest-standard" title="Comply with the latest standard" class="md-nav__link">
-    Comply with the latest standard
+  <a href="#_2" title="최신 기준을 준수하세요" class="md-nav__link">
+    최신 기준을 준수하세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#be-aware-of-front-running-attacks-on-eip-20" title="Be aware of front running attacks on EIP-20" class="md-nav__link">
-    Be aware of front running attacks on EIP-20
+  <a href="#eip-20" title="EIP-20은 선행 매매 공격이 가능한 것을 염두에 두세요" class="md-nav__link">
+    EIP-20은 선행 매매 공격이 가능한 것을 염두에 두세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prevent-transferring-tokens-to-the-0x0-address" title="Prevent transferring tokens to the 0x0 address" class="md-nav__link">
-    Prevent transferring tokens to the 0x0 address
+  <a href="#0x0" title="토큰을 0x0 주소로 송금하는 것을 방지하세요" class="md-nav__link">
+    토큰을 0x0 주소로 송금하는 것을 방지하세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prevent-transferring-tokens-to-the-contract-address" title="Prevent transferring tokens to the contract address" class="md-nav__link">
-    Prevent transferring tokens to the contract address
+  <a href="#_3" title="자기 컨트랙트 주소에 토큰을 송금하는 것을 방지하세요" class="md-nav__link">
+    자기 컨트랙트 주소에 토큰을 송금하는 것을 방지하세요
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
+  <a href="#_4" title="예시" class="md-nav__link">
+    예시
   </a>
   
 </li>
@@ -609,8 +609,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../security_notifications/" title="보안 알림 사항" class="md-nav__link">
-      보안 알림 사항
+    <a href="../security_notifications/" title="보안 소식" class="md-nav__link">
+      보안 소식
     </a>
   </li>
 
@@ -664,7 +664,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../about/reviewers/" title="Translator" class="md-nav__link">
+    <a href="../about/translators/" title="Translator" class="md-nav__link">
       Translator
     </a>
   </li>
@@ -742,37 +742,37 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#comply-with-the-latest-standard" title="Comply with the latest standard" class="md-nav__link">
-    Comply with the latest standard
+  <a href="#_2" title="최신 기준을 준수하세요" class="md-nav__link">
+    최신 기준을 준수하세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#be-aware-of-front-running-attacks-on-eip-20" title="Be aware of front running attacks on EIP-20" class="md-nav__link">
-    Be aware of front running attacks on EIP-20
+  <a href="#eip-20" title="EIP-20은 선행 매매 공격이 가능한 것을 염두에 두세요" class="md-nav__link">
+    EIP-20은 선행 매매 공격이 가능한 것을 염두에 두세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prevent-transferring-tokens-to-the-0x0-address" title="Prevent transferring tokens to the 0x0 address" class="md-nav__link">
-    Prevent transferring tokens to the 0x0 address
+  <a href="#0x0" title="토큰을 0x0 주소로 송금하는 것을 방지하세요" class="md-nav__link">
+    토큰을 0x0 주소로 송금하는 것을 방지하세요
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#prevent-transferring-tokens-to-the-contract-address" title="Prevent transferring tokens to the contract address" class="md-nav__link">
-    Prevent transferring tokens to the contract address
+  <a href="#_3" title="자기 컨트랙트 주소에 토큰을 송금하는 것을 방지하세요" class="md-nav__link">
+    자기 컨트랙트 주소에 토큰을 송금하는 것을 방지하세요
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#example" title="Example" class="md-nav__link">
-    Example
+  <a href="#_4" title="예시" class="md-nav__link">
+    예시
   </a>
   
 </li>
@@ -799,24 +799,24 @@
                   <a href="https://github.com/ConsenSys/smart-contract-best-practices/edit/master/docs/lang/ko/tokens.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="token-implementation-best-practice">Token Implementation Best Practice<a class="headerlink" href="#token-implementation-best-practice" title="Permanent link">&para;</a></h1>
-<p>Implementing Tokens should comply with other best practices, but also have some unique considerations.</p>
-<h2 id="comply-with-the-latest-standard">Comply with the latest standard<a class="headerlink" href="#comply-with-the-latest-standard" title="Permanent link">&para;</a></h2>
-<p>Generally speaking, smart contracts of tokens should follow an accepted and stable standard. </p>
-<p>Examples of currently accepted standards are:</p>
+                <h1 id="_1">토큰 구현 모범 사례<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>토큰을 구현할 때 일반적인 모범 사례들 또한 준수해야하지만, 특별히 고려해야하는 사항들이 따로 있습니다</p>
+<h2 id="_2">최신 기준을 준수하세요<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>일반적으로 말하자면, 토큰 스마트 컨트랙트는 수용가능하고 안정적인 기준을 따라야 합니다.</p>
+<p>현재 통용되는 기준들은 다음과 같습니다:</p>
 <ul>
 <li><a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md">EIP20</a></li>
-<li><a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md">EIP721</a> (non-fungible token)</li>
+<li><a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md">EIP721</a> (대체 불가능 토큰)</li>
 </ul>
-<h2 id="be-aware-of-front-running-attacks-on-eip-20">Be aware of front running attacks on EIP-20<a class="headerlink" href="#be-aware-of-front-running-attacks-on-eip-20" title="Permanent link">&para;</a></h2>
-<p>The EIP-20 token's <code>approve()</code> function creates the potential for an approved spender to spend more than the intended amount. A <a href="../known_attacks/#transaction-ordering-dependence-tod-front-running">front running attack</a> can be used, enabling an approved spender to call <code>transferFrom()</code> both before and after the call to <code>approve()</code> is processed. More details are available on the <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#approve">EIP</a>, and in <a href="https://docs.google.com/document/d/1YLPtQxZu1UAvO9cZ1O2RPXBbT0mooh4DYKjA_jp-RLM/edit">this document</a>.</p>
-<h2 id="prevent-transferring-tokens-to-the-0x0-address">Prevent transferring tokens to the 0x0 address<a class="headerlink" href="#prevent-transferring-tokens-to-the-0x0-address" title="Permanent link">&para;</a></h2>
-<p>At the time of writing, the "zero" address (<a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000">0x0000000000000000000000000000000000000000</a>) holds tokens with a value of more than 80$ million.</p>
-<h2 id="prevent-transferring-tokens-to-the-contract-address">Prevent transferring tokens to the contract address<a class="headerlink" href="#prevent-transferring-tokens-to-the-contract-address" title="Permanent link">&para;</a></h2>
-<p>Consider also preventing the transfer of tokens to the same address of the smart contract. </p>
-<p>An example of the potential for loss by leaving this open is the <a href="https://etherscan.io/address/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0">EOS token smart contract</a> where more than 90,000 tokens are stuck at the contract address. </p>
-<h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
-<p>An example of implementing both the above recommendations would be to create the following modifier; validating that the "to" address is neither 0x0 nor the smart contract's own address:</p>
+<h2 id="eip-20">EIP-20은 선행 매매 공격이 가능한 것을 염두에 두세요<a class="headerlink" href="#eip-20" title="Permanent link">&para;</a></h2>
+<p>EIP-20 토큰의 <code>approve()</code> 함수는 승인된 지출자가 실제 의도 이상의 금액을 사용할 수 있도록 하는 가능성을 내포하고 있습니다. 승인된 지출자가 <code>approve()</code>가 처리되기 직전 및 직후에 <code>transferFrom()</code> 함수를 호출할 수 있도록 하여 <a href="../known_attacks/#transaction-ordering-dependence-tod-front-running">선행 매매 공격</a>을 할 수 있습니다. 더 자세한 내용은 <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#approve">EIP</a>와 <a href="https://docs.google.com/document/d/1YLPtQxZu1UAvO9cZ1O2RPXBbT0mooh4DYKjA_jp-RLM/edit">이 문서</a>를 확인해주세요.</p>
+<h2 id="0x0">토큰을 0x0 주소로 송금하는 것을 방지하세요<a class="headerlink" href="#0x0" title="Permanent link">&para;</a></h2>
+<p>글의 작성 시점 기준으로는, "영주소(zero address, <a href="https://etherscan.io/address/0x0000000000000000000000000000000000000000">0x0000000000000000000000000000000000000000</a>)"에 80$ million 가치에 해당하는 토큰이 묶여 있습니다.</p>
+<h2 id="_3">자기 컨트랙트 주소에 토큰을 송금하는 것을 방지하세요<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>토큰을 자기 컨트랙트 주소에 송금하는 것을 방지하세요</p>
+<p>이 것을 그대로 두어 토큰을 잃어버리는 가능성을 보여준 예시가 <a href="https://etherscan.io/address/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0">EOS의 토큰 스마트 컨트랙트</a>입니다. 여기에는 90,000개의 토큰이 해당 컨트랙트 주소에 묶여있습니다.</p>
+<h3 id="_4">예시<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>추천사항을 만족하는 구현 예시는 다음과 같이 "to" 주소가 0x0도 아니고 스마트 컨트랙트 고유의 주소도 아닌 것을 확인하는 한정자를 구현하는 것입니다:</p>
 <div class="highlight"><pre><span></span>    <span class="kd">modifier</span> <span class="n">validDestination</span><span class="p">(</span> <span class="kt">address</span> <span class="n">to</span> <span class="p">)</span> <span class="p">{</span>
         <span class="n">require</span><span class="p">(</span><span class="n">to</span> <span class="o">!=</span> <span class="kt">address</span><span class="p">(</span><span class="mh">0x0</span><span class="p">));</span>
         <span class="n">require</span><span class="p">(</span><span class="n">to</span> <span class="o">!=</span> <span class="kt">address</span><span class="p">(</span><span class="nb">this</span><span class="p">)</span> <span class="p">);</span>
@@ -824,19 +824,19 @@
     <span class="p">}</span>
 </pre></div>
 
-<p>The modifier should then be applied to the "transfer" and "transferFrom" methods:</p>
+<p>한정자는 반드시 <code>transfer</code>와 <code>transferFrom</code> 메소드에 적용되어야 합니다:</p>
 <div class="highlight"><pre><span></span>    <span class="kd">function</span> <span class="n">transfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">_to</span><span class="p">,</span> <span class="kt">uint</span> <span class="n">_value</span><span class="p">)</span>
         <span class="n">validDestination</span><span class="p">(</span><span class="n">_to</span><span class="p">)</span>
-        <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> 
+        <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span>
     <span class="p">{</span>
-        <span class="p">(...</span> <span class="n">your</span> <span class="n">logic</span> <span class="p">...)</span>
+        <span class="p">(...</span> <span class="err">로직</span> <span class="p">...)</span>
     <span class="p">}</span>
 
     <span class="kd">function</span> <span class="n">transferFrom</span><span class="p">(</span><span class="kt">address</span> <span class="n">_from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">_to</span><span class="p">,</span> <span class="kt">uint</span> <span class="n">_value</span><span class="p">)</span>
         <span class="n">validDestination</span><span class="p">(</span><span class="n">_to</span><span class="p">)</span>
-        <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> 
+        <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span>
     <span class="p">{</span>
-        <span class="p">(...</span> <span class="n">your</span> <span class="n">logic</span> <span class="p">...)</span>
+        <span class="p">(...</span> <span class="err">로직</span> <span class="p">...)</span>
     <span class="p">}</span>
 </pre></div>
                 
@@ -886,7 +886,7 @@
         <!-- Link to previous page -->
         
           <a href="../software_engineering/"
-              title="소프트웨어 공학 기술"
+              title="소프트웨어 공학"
               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
               rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -899,7 +899,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                소프트웨어 공학 기술
+                소프트웨어 공학
               </span>
             </div>
           </a>
